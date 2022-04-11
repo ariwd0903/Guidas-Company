@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    background-image: linear-gradient(#d4770d,#dde1eb)
+}
+
+.box{
+    margin: 0px;
+    background-color: #090a11;
+    width: 100%;
+    position: fixed;
+}
+
+.introdução{
+    text-align: center;
+}
+
+.box_cabecalho{
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: #da570c;
+}
+
+.box_cabecalho_nav_lista-ul{
+    display: flex;
+    list-style-type: none;
+    color:white;
+}
+
+.introdução{
+    color: #090a11;
+}
+.box_cabecalho_nav_lista-li{
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.sessao_img{
+    width: 100%;
+}
+
+.main{
+    margin:5 10% 5 10%;
+}
+.sessao1, .sessao2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sessao1_img{
+    width: 50%;
+    justify-content: start;
+    margin-left: 1%;
+}
+
+.sessao_conteudo-texto-titulo, .sessão2_conteudo-texto-título{
+    color:rgb(218, 114, 17);
+    margin: 1%;
+    font-size:x-large;
+    text-align: center;
+  
+}
+
+.sessao_conteudo-texto, .sessão2_conteudo-texto{
+    color: white;
+    margin: 1%;
+    font-size: medium;
+    text-align: center;
+}
+  
+
+.praia{
+    width: 50%;
+    justify-content: start;
+    margin-left: 1%;
+}
+
+
+
+h4{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.conteiner_imagem{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+h5{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2{
+    color: black;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}

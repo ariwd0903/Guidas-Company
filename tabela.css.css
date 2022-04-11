@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    background-color:white; 
+    }
+    .box{
+        margin: 0;
+        background-color: #ffd174;
+        width: 100%;
+        opacity: 1;
+    }
+    .box_cabecalho{
+        display: flex;
+        justify-content: space-around;
+        margin: 0 15% 0 15%;
+        align-items: center;
+       color: #000000;
+    }
+    
+    .titulo-1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 15px;
+      
+    }   
+    
+    .box_cabecalho_lista_nav_ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-end;
+        margin: 15px;
+    
+    }
+    
+    .box_cabecalho_lista_nav_li{
+        color: #000000;
+        padding: 10px;
+        align-items: baseline;
+        margin-top: -50px;
+        margin-right: 10px;
+        font-size: 18px;
+        justify-content: space-between
+    }
+
+.titulo-da-tabela{
+    border: none;
+}
+.opa2{
+    text-align: center;
+    justify-items: center;
+    background-color: rgb(255, 218, 97);
+}
+table{
+    padding: 12px;
+}
+
+tr,th{
+    padding: 5px;
+}
